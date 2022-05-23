@@ -1,0 +1,227 @@
+@media (max-width: 1280px) {
+    .container{
+        width: 1280px;
+    }
+    
+    .about_text_sec{
+        width: 350px;
+    }
+    
+    .nomers_block img{
+        width: 350px;
+    
+    }
+    
+    .nomers_text{
+        padding: 100px 100px;
+        margin: 0 10px 40px;
+    }
+    
+    .nomers_block{
+        justify-content: space-around;
+    }
+    
+    .services_img img{
+        width: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        width: 1024px;
+    }
+
+    #about{
+        background-size: 30%, 30%;
+        background-position: 1% 50%, 99% 50%;
+        height: 400px;
+    }
+
+    .about{
+        padding-top: 50px;
+    }
+
+    .about_text_main{
+        padding-bottom: 20px;
+    }
+
+    .about_text_sec{
+        padding-bottom: 40px;
+    }
+
+    .nomers_block img{
+        width: 300px;
+    }
+
+    .nomers_text{
+        padding: 80px 80px;
+        margin: 0 10px 40px;
+    }
+
+    .services_img img{
+        width: 70px;
+    }
+
+    .services_text{
+        font-size: 16px;
+    }
+
+    .nomerses img, .nomerses_2 img{
+        width: 60%;
+    }
+
+    .contacts_text {
+        margin: 100px 50px;
+    }
+
+    .map{
+        display: none;
+    }
+
+    .map_for1024{
+        display: block;
+    }
+
+    .panda, .sensei{
+        width: 290px;
+    }
+
+    .sensei{
+        top: 120px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container{
+        width: 768px;
+    }
+
+    .line{
+        display: block;
+    }
+
+    #about{
+        background-size: 25%, 25%;
+        background-position: 1% 50%, 99% 50%;
+        height: 400px;
+    }
+
+    .booking_button{
+        margin-top: 20px;
+    }
+
+    .home_back{
+        width: 98%;
+    }
+
+    .booking_block{
+        padding-top: 40px;
+    }
+
+    .booking_block:last-child{
+        padding-right: 0;
+    }
+
+    .nomers_block img{
+        width: 200px;
+    }
+
+    .nomers_text{
+        padding: 63px 30px;
+        margin: 0 10px 40px;
+        border-radius: 20px;
+    }
+
+    .nomers_text hr{
+        margin: 5px 0;
+        padding-bottom: 0;
+    }
+
+    .services_view{
+        justify-content: center;
+    }
+
+    .servicesss{
+        padding-right: 10px;
+    }
+
+    .servicesss:last-child{
+        padding-right: 10px;
+    }
+
+    .rules_text{
+        width: 750px;
+    }
+
+    .nomerses img, .nomerses_2 img{
+        width: 55%;
+    }
+
+    .default{
+        display: none;
+    }
+
+    .nomer_block{
+        height: auto;
+        width: 320px;
+    }
+
+    .nomer_block_2{
+        height: auto;
+        width: 320px;
+    }
+
+    hr{
+        display: none;
+    }
+
+    .poslyga_img img{
+        width: 90%;
+    }
+
+    .poslygi_content{
+        width: 100%;
+    }
+
+    .more_content{
+        width: 100%;
+    }
+
+    .rules_modal_content{
+        overflow: scroll;
+        width: 100%;
+    }
+
+    .rules_modal_text{
+        display: none;
+    }
+
+    .rules_modal_text_768{
+        display: block;
+    }
+
+    .map_for1024{
+        display: none;
+    }
+
+    .map_for768{
+        display: block;
+    }
+
+    .contacts_text {
+        margin: 100px 5px;
+    }
+
+    .welcome{
+        height: 350px;
+    }
+
+    .welcome_text{
+        padding-top: 100px;
+    }
+
+    .panda, .sensei{
+        display: none;
+    }
+}

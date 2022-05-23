@@ -1,0 +1,186 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+    max-width: 1920px;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+	scroll-behavior: smooth;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+header{
+    background: rgba(60, 98, 179, 0.5);
+    backdrop-filter: blur(40px);
+}
+
+.logo{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.nav{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav_link{
+    padding: 0 25px;
+}
+
+.nav_link:last-child{
+    padding-right: 0px;
+}
+
+.nav_link a{
+    transition: .3s;
+    font-size: 20px;
+    position: relative;
+    
+}
+
+.nav_link a:after{
+	display: block;
+	content: "";
+	position: absolute;
+	left: 50%;
+	width: 0%;
+	height: 2px;
+	background-color: rgb(51, 4, 179);
+	transition:  .5s ease-in-out;
+	transform: translateX(-50%);
+}
+
+.nav_link a:hover:after{
+	width: 100%;
+}
+
+/*WELCOME*/
+
+#welcome{
+    background-color: #4E0894;
+}
+
+.welcome{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 500px;
+}
+
+.welcome_text{
+    padding-top: 200px;
+    font-size: 32px; 
+}
+
+.welcome_btn{
+    margin-top: 80px;
+}
+
+.welcome_btn a{
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 20px 40px;
+    font-size: 24px;
+    transition: .6s;
+    text-transform: uppercase;
+}
+
+.welcome_btn a:hover{
+    background-color: #107107;
+    border: 1px solid #107107;
+    transition: .6s;
+    color: #fff;
+}
+
+.panda{
+    position: absolute;
+    right: 40px;
+    width: 380px;
+    top: 40px;
+	border: 1px solid #fff;
+}
+
+.sensei{
+    position: absolute;
+    left: 40px;
+    width: 380px;
+    top: 40px;
+	border: 1px solid #fff;
+}
+
+
+/*CONTACT*/
+
+#contact{
+	background-color: #4E0894;
+}
+
+.contact{
+	display: flex;
+	justify-content: space-around;
+	color: #fff;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.contacts_main_text{
+	font-size: 24px;
+}
+
+.contacts_sec_text, .contacts_sec_text a{
+	font-size: 16px;
+	color: #D0D0D0;
+	padding-top: 15px;
+	transition: .5s;
+}
+
+.contacts_sec_text a:hover{
+	color: #fff;
+	transition: .5s;
+}
+
+.follow_us_img{
+	padding-top: 25px;
+
+}
+
+.follow_us_img a{
+	margin-right: 20px;
+}
+
+.follow_us_img a:last-child{
+	margin-right: 0;
+}
+
+.follow_us_img a img{
+	border: 1px solid #000;
+	border-radius: 50px;
+	background-color: #000;
+	padding: 10px;	
+	transition: .5s;
+}
+
+.follow_us_img a img:hover{
+	border: 1px solid #107107;
+	background-color: #107107;
+	transition: .5s;
+}
+
